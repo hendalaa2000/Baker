@@ -1,0 +1,62 @@
+/*================================ Satrt large screens =========================*/
+@media (min-width:1201px ) and (max-width: 1440px)
+{
+
+}
+@media (min-width:1025px) and (max-width:1200px)
+{
+
+}
+/*============================== Start medium screen of tablet =========================*/
+@media (min-width: 993px) and (max-width: 1024px)
+{
+
+}
+@media (min-width: 769px) and (max-width: 992px)
+{
+}
+@media(max-width:992px)
+{
+}
+
+/*============================== Start small screen of mobile =========================*/
+@media(max-width:768px)
+{
+    .navbar .nav-item .nav-link {
+        padding: 8px 0px;
+    }
+    .navbar .navbar-nav{
+        margin-top: 10px !important;
+        border-top: 1px solid rgba(255, 255, 255, .3);
+        background: var(--dark);
+    
+    }
+    .header .swiper .swiper-slide .swiper-content h1 {
+        font-size: 3rem;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+}
+@media(max-width:576px)
+{
+  .Product .product-heading h1 {
+    font-size: 3rem;
+}
+  }
+@media (min-width: 320px) and (max-width: 375px)
+{
+  .Testimonial .Testimonial-Subscribe {
+    padding: 1em !important;
+}
+}
+@media (max-width: 425px){
+}
+@media (max-width: 1024px){
+    .header .swiper .swiper-slide {
+        min-height: 600px;
+      }
+      .header .swiper .swiper-slide img{
+        position: absolute;
+      }
+}
